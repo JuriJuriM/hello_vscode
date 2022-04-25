@@ -94,7 +94,13 @@ body {
 }
 
 h1 {
+    font-size: 24px;
     color: red;
+    padding: 20px 0 20px 20px;
+}
+
+h2 {
+    font-size: 22px;
 }
 
 .blue {
@@ -102,5 +108,14 @@ h1 {
 }
 
 h3 {
+    font-size: 18px;
     color: rgb(101, 12, 65);
+}
+
+ul {
+    padding: 20px 0 0 20px;
+}
+
+ul>li {
+    margin: 0 0 10px 0;
 }
