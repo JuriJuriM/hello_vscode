@@ -111,9 +111,22 @@ h3 {
 
 ul {
   padding: 20px 0 0 20px;
+  position: relative;
 }
 
 ul > li {
-  margin: 0 0 10px 0;
+  color: green;
+  font-size: 20p;
+  margin: 0 0 20px 0;
+}
+
+ul > li:before {
+  content: '';
+  position: absolute;
+  margin: 20px 10px 0 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */
