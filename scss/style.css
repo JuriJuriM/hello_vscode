@@ -122,11 +122,11 @@ ul > li {
 
 ul > li::before {
   content: '';
-  position: absolute;
-  margin: 0 40px 0 0;
+  margin: 0 10px 0 0;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: red;
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
